@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="api.utilities.ExtentReportManager"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="api.test.UserTests2">
+        <methods>
+          <include name="deleteQuestionTest"/>
+          <include name="setupData"/>
+          <include name="getExamDetails"/>
+          <include name="getAllQuestionsTest"/>
+          <include name="getexamdetails"/>
+          <include name="scheduleExamTest"/>
+          <include name="Createexams"/>
+          <include name="getExamDetailsTest"/>
+          <include name="testPostUser"/>
+          <include name="getExamssections"/>
+          <include name="viewquestion"/>
+          <include name="template"/>
+          <include name="postSectionTest"/>
+          <include name="scheduledexamdetails"/>
+          <include name="getExportwrd"/>
+          <include name="getPastExamsTest"/>
+          <include name="createSectionTest"/>
+        </methods>
+      </class> <!-- api.test.UserTests2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

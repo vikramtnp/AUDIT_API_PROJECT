@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-29T06:32:59Z" name="Default suite" finished-at="2024-07-29T06:33:02Z" duration-ms="2864">
+    <groups>
+    </groups>
+    <test started-at="2024-07-29T06:32:59Z" name="Default test" finished-at="2024-07-29T06:33:02Z" duration-ms="2864">
+      <class name="api.test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.LoginTest@7164ca4c]" started-at="2024-07-29T12:02:59Z" name="setUp" finished-at="2024-07-29T12:02:59Z" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.LoginTest@7164ca4c]" started-at="2024-07-29T12:03:00Z" name="loginTest" data-provider="loginData" finished-at="2024-07-29T12:03:01Z" duration-ms="1291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fUhXOePNBQFu/nWvv7PGrg==:8y4UCZvUoYB9Cc6kr+f2RAL5Nrhd3sWjk7JjNdsKiRY=]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qOVeJ8rTd8TwDM97HgAPBw==:JZ/uwuD2dTRGOntqt0dBaA==]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- api.test.LoginTest -->
+      <class name="api.test.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.LogoutTest@4f3bbf68]" started-at="2024-07-29T12:03:01Z" name="setUp" finished-at="2024-07-29T12:03:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:3, instance:api.test.LogoutTest@4f3bbf68]" started-at="2024-07-29T12:03:01Z" name="logoutTest" finished-at="2024-07-29T12:03:02Z" depends-on-methods="api.test.LoginTest.loginTest" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- api.test.LogoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

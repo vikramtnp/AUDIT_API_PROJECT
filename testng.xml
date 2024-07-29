@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RestAssured Suite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager" />
+    </listeners>
+    
+    <test name="Login Tests">
+        <classes>
+            <class name="api.test.LoginTest" />
+            <class name="api.test.LogoutTest" />
+             
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+api\payload\LoginResponse.class
+api\utilities\ExtentReportManager.class
+api\test\Sync.class
+api\payload\LogoutResponse.class
+api\test\LoginTest.class
+api\payload\SyncResponse$Masters.class
+api\payload\SyncResponse$Organization.class
+api\payload\LoginRequest.class
+api\test\LogoutTest.class
+api\payload\SyncResponse$Country.class
+api\payload\SyncResponse.class
+api\utilities\ConfigManager.class
+api\payload\LogoutRequest.class
+api\payload\SyncResponse$UserRole.class
+api\test\BaseTest.class
+api\utilities\ExcelUtils.class
